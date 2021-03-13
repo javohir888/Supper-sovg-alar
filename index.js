@@ -1,6 +1,15 @@
 let hidden = document.querySelector("#hidden");
 let box = document.querySelector("#box");
 let btn = document.querySelector("#btn");
+let yakun = document.querySelector("#yakun");
+let oxiri = document.querySelector("#oxiri");
+let yutuq = document.querySelector(".yutuq");
+
+oxiri.addEventListener('click', () => {
+    box.parentNode.removeChild(box);
+    yakun.setAttribute("class", "yakum");
+    yutuq.parentNode.removeChild(yutuq);
+})
 
 let boxOne = document.querySelector(".box1");
 let imageOne = document.querySelector(".box1 > img");

@@ -213,6 +213,23 @@ body {
     font-style: italic;
 }
 
+.yakun {
+    display: none;
+}
+
+.yakum {
+    background-image: url(https://sun1-97.userapi.com/s/v1/if1/pBne-2a85Jub1MZD0ECzgWlF3NLjl5JY38XMLP8yYey5GRLsM2VSL-RcbwBj2sgf9qpvcU0_.jpg?size=400x0&quality=96&crop=0,77,521,521&ava=1);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.yakun-img {
+    width: 100%;
+    height: 100%;
+}
+
 @media only screen and (max-width: 420px) {
     .span {
         font-size: 12px;
