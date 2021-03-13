@@ -25,6 +25,7 @@ boxTwo.addEventListener('click', () => {
     boxFive.parentNode.removeChild(boxFive);
     boxsix.parentNode.removeChild(boxsix);
     hidden.setAttribute('class', 'hidden');
+    btn.setAttribute('class', 'kurindi');
 });
 
 let boxThree = document.querySelector(".box3");
@@ -37,6 +38,7 @@ boxThree.addEventListener('click', () => {
     boxFive.parentNode.removeChild(boxFive);
     boxsix.parentNode.removeChild(boxsix);
     hidden.setAttribute('class', 'hidden');
+    btn.setAttribute('class', 'kurindi');
 });
 
 let boxFour = document.querySelector(".box4");
@@ -49,6 +51,7 @@ boxFour.addEventListener('click', () => {
     boxFive.parentNode.removeChild(boxFive);
     boxsix.parentNode.removeChild(boxsix);
     hidden.setAttribute('class', 'hidden');
+    btn.setAttribute('class', 'kurindi');
 });
 
 let boxFive = document.querySelector(".box5");
@@ -61,6 +64,7 @@ boxFive.addEventListener('click', () => {
     boxOne.parentNode.removeChild(boxOne);
     boxsix.parentNode.removeChild(boxsix);
     hidden.setAttribute('class', 'hidden');
+    btn.setAttribute('class', 'kurindi');
 });
 
 let boxsix = document.querySelector(".box6");
@@ -73,5 +77,6 @@ boxsix.addEventListener('click', () => {
     boxFive.parentNode.removeChild(boxFive);
     boxOne.parentNode.removeChild(boxOne);
     hidden.setAttribute('class', 'hidden');
+    btn.setAttribute('class', 'kurindi');
 });
 
