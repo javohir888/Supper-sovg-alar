@@ -140,7 +140,7 @@ body {
 }
 
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 420px) {
     .span {
         font-size: 12px;
         /* display: none; */
@@ -194,7 +194,7 @@ body {
     }
 
     .box {
-        padding-top: 20px;
+        padding-top: 50px;
         width: 80%;
     }
 
