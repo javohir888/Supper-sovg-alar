@@ -104,3 +104,38 @@ body {
     font-size: 2em;
     color: purple;
 }
+
+
+@media only screen and (max-width: 415px) {
+    .span {
+        font-size: 7px;
+        /* display: none; */
+    }
+
+    .buri {
+        width: 40px;
+        height: 40px;
+    }
+
+    .left img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .right i {
+        display: none;
+    }
+
+    .btn-h {
+        width: 60px;
+        height: 25px;
+        font-size: 14px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header {
+        padding: 0 2px;
+    }
+}
